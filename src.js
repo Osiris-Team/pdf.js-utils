@@ -36,7 +36,7 @@ function removeTextEditor(pageNum, editor) {
  * also sets/updates the editors page attribute.
  * @returns editors divs of all pages
  */
-function getEditors() {
+function getEditorsDivs() {
     let all = []
     let editorLayers = document.querySelectorAll("div.annotationEditorLayer")
     let pageNum = 1; // Assumes pages have ascending order, like any sane person would
@@ -52,7 +52,7 @@ function getEditors() {
     return all
 }
 
-function waitForAnnotationEditorLayer() {
+function waitForAnnotationEditorLayers() {
     return new Promise((resolve, reject) => {
         const interval = 100; // Check every 100ms
         const maxAttempts = 100; // Maximum attempts before rejecting the promise
