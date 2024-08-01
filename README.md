@@ -1,5 +1,5 @@
 # pdf.js-utils
-pdf.js-utils
+A collection of utility functions for pdf.js to make the lives of developers easier.
 
 ### Usage
 Copy src.js into your project or prepend it to your JavaScript code
