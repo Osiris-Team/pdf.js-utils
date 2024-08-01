@@ -2,7 +2,7 @@
 A collection of utility functions for pdf.js to make the lives of developers easier.
 
 ### Usage
-Copy src.js into your project or prepend it to your JavaScript code
+Copy [src.js](./src.js) into your project or prepend it to your JavaScript code
 to be able to use the additional functions provided.
 
 ### Adding/Removing Text Fields
